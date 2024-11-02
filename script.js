@@ -4,7 +4,7 @@ var slideHeight;
 var sliderUlWidth;
 
 $(function() {
-	getRssFeed("http://nnaleb.com/ar/rss", mapFeed);
+	getRssFeed("https://nna-leb.gov.lb/ar/rss", mapFeed);
 	
 	$('.left-arrow').on('click', function () {
 		moveLeft();
